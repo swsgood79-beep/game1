@@ -1,0 +1,1 @@
+{"player":{"path":"assets/archer.png","kind":"single-frame","source":"Generated from the user-provided Joseon pixel character reference","directions":"front; horizontal mirror for aiming","variants":{"활잡이":"original palette","백정":"sepia tint placeholder","무당":"hue tint placeholder"}},"terrain":{"kind":"procedural-pixel-canvas"},"monsters":{"kind":"procedural-pixel-canvas"}}

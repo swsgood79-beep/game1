@@ -1,0 +1,495 @@
+[
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "기본공격",
+    "name": "도살칼 베기",
+    "effect_text": "전방 부채꼴(90°) 근접 베기. 3타째는 계수 +30%.",
+    "damage_coef_text": "100% (3타 130%)",
+    "range_tiles": 1.5,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": null,
+    "coef": 100,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "arc",
+        "angle": 90,
+        "combo": 1.3
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "스킬1",
+    "name": "갈고리 던지기",
+    "effect_text": "갈고리를 던져 적 1체를 3타일 끌어당김.",
+    "damage_coef_text": "120%",
+    "range_tiles": 6,
+    "cooldown_sec": 8,
+    "mp_cost": 15,
+    "duration_sec": null,
+    "status_text": "끌어당김 3타일",
+    "coef": 120,
+    "range": 6,
+    "effects": [
+      {
+        "type": "projectile",
+        "pull": 3
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "스킬2",
+    "name": "뼈 발라내기",
+    "effect_text": "단일 대상 강타. 출혈 중인 대상에게 계수 +50%.",
+    "damage_coef_text": "180% (출혈 시 270%)",
+    "range_tiles": 1.5,
+    "cooldown_sec": 6,
+    "mp_cost": 20,
+    "duration_sec": null,
+    "status_text": null,
+    "coef": 180,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "arc",
+        "angle": 90,
+        "maxTargets": 1,
+        "bleedBonus": 1.5
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "스킬3",
+    "name": "칼 갈기",
+    "effect_text": "자신 버프: 공격력 +20%, 기본공격 속도 +10%.",
+    "damage_coef_text": null,
+    "range_tiles": "자신",
+    "cooldown_sec": 20,
+    "mp_cost": 10,
+    "duration_sec": 8,
+    "status_text": "버프",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "buff",
+        "attack": 0.2,
+        "speed": 0.1
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "궁극기",
+    "name": "도살 개시",
+    "effect_text": "전방 부채꼴(3타일) 3연타. 체력 25% 이하 일반 적에게는 피해 2배.",
+    "damage_coef_text": "150% ×3",
+    "range_tiles": 3,
+    "cooldown_sec": 60,
+    "mp_cost": 50,
+    "duration_sec": null,
+    "status_text": "처형 보정(보스 제외)",
+    "coef": 150,
+    "range": 3,
+    "effects": [
+      {
+        "type": "arc",
+        "angle": 90,
+        "hits": 3,
+        "executeThreshold": 0.25,
+        "executeBonus": 2
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "패시브",
+    "name": "피 맛",
+    "effect_text": "출혈 중인 적을 처치하면 최대 체력의 3% 회복.",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": "처치 시 회복",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "killBleeding",
+        "heal": 0.03
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "근접",
+    "job": "백정",
+    "slot": "패시브",
+    "name": "굳은 손",
+    "effect_text": "기본공격 적중 시 15% 확률로 3초 출혈 부여.",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": 3,
+    "status_text": "출혈(공격력 20%/초)",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "basicHit",
+        "chance": 0.15,
+        "bleed": 3,
+        "coef": 0.2
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "기본공격",
+    "name": "화살 쏘기",
+    "effect_text": "직선 투사체.",
+    "damage_coef_text": "75%",
+    "range_tiles": 7,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": null,
+    "coef": 75,
+    "range": 7,
+    "effects": [
+      {
+        "type": "projectile"
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "스킬1",
+    "name": "연발사격",
+    "effect_text": "15° 부채꼴로 화살 3발.",
+    "damage_coef_text": "60% ×3",
+    "range_tiles": 7,
+    "cooldown_sec": 6,
+    "mp_cost": 15,
+    "duration_sec": null,
+    "status_text": null,
+    "coef": 60,
+    "range": 7,
+    "effects": [
+      {
+        "type": "projectile",
+        "count": 3,
+        "spread": 15
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "스킬2",
+    "name": "화살비",
+    "effect_text": "지정 지점에 화살을 퍼부음. 매초 틱 피해.",
+    "damage_coef_text": "70%/초",
+    "range_tiles": "8 (반경 2.5)",
+    "cooldown_sec": 14,
+    "mp_cost": 25,
+    "duration_sec": 3,
+    "status_text": "지속 장판",
+    "coef": 70,
+    "range": 8,
+    "effects": [
+      {
+        "type": "zone",
+        "radius": 2.5,
+        "tick": 1
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "스킬3",
+    "name": "후방 도약",
+    "effect_text": "3타일 뒤로 도약. 도약 직후 0.3초 무적, 다음 사격 +30%.",
+    "damage_coef_text": "+30% (다음 1회)",
+    "range_tiles": 3,
+    "cooldown_sec": 9,
+    "mp_cost": 10,
+    "duration_sec": null,
+    "status_text": "무적 0.3초",
+    "coef": 30,
+    "range": 3,
+    "effects": [
+      {
+        "type": "dash",
+        "distance": 3,
+        "invulnerable": 0.3,
+        "nextBonus": 0.3
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "궁극기",
+    "name": "백발백중",
+    "effect_text": "공속 +60%, 치명 확률 +25%, 화살 관통.",
+    "damage_coef_text": null,
+    "range_tiles": "자신",
+    "cooldown_sec": 70,
+    "mp_cost": 60,
+    "duration_sec": 5,
+    "status_text": "버프",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "buff",
+        "speed": 0.6,
+        "crit": 0.25,
+        "pierce": true
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "패시브",
+    "name": "정조준",
+    "effect_text": "1초 이상 정지 후 첫 화살은 치명타 확정. 재발동 3초.",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": 3,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": "발동형",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "stationary",
+        "seconds": 1,
+        "cooldown": 3
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "원거리",
+    "job": "활잡이",
+    "slot": "패시브",
+    "name": "활 단련",
+    "effect_text": "기본공격 속도 +10%, 사거리 +0.5타일.",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": "상시",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "always",
+        "speed": 0.1,
+        "range": 0.5
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "기본공격",
+    "name": "방울 흔들기",
+    "effect_text": "직선 마법 투사체.",
+    "damage_coef_text": "70%",
+    "range_tiles": 5,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": null,
+    "coef": 70,
+    "range": 5,
+    "effects": [
+      {
+        "type": "projectile"
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "스킬1",
+    "name": "도깨비불",
+    "effect_text": "도깨비불 소환(최대 2). 적을 추격해 접촉 시 폭발.",
+    "damage_coef_text": "120%",
+    "range_tiles": "추격",
+    "cooldown_sec": 8,
+    "mp_cost": 20,
+    "duration_sec": 12,
+    "status_text": "소환(자폭형)",
+    "coef": 120,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "summon",
+        "unit": "fire",
+        "count": 2,
+        "cap": 2,
+        "radius": 1.5
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "스킬2",
+    "name": "처녀귀신 소환",
+    "effect_text": "귀신 1체 소환. 공격 시 30% 확률로 공포.",
+    "damage_coef_text": "60% (소환수 공격력)",
+    "range_tiles": "근접",
+    "cooldown_sec": 16,
+    "mp_cost": 30,
+    "duration_sec": 10,
+    "status_text": "공포 1.5초",
+    "coef": 60,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "summon",
+        "unit": "ghost",
+        "count": 1,
+        "fearChance": 0.3,
+        "fearDuration": 1.5
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "스킬3",
+    "name": "신칼 의식",
+    "effect_text": "소환수 전원 체력 30% 회복, 공격력 +20%.",
+    "damage_coef_text": null,
+    "range_tiles": "주변 6",
+    "cooldown_sec": 20,
+    "mp_cost": 15,
+    "duration_sec": 6,
+    "status_text": "소환수 버프",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "summonBuff",
+        "heal": 0.3,
+        "attack": 0.2
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "궁극기",
+    "name": "저승사자 강림",
+    "effect_text": "저승사자 1체 소환. 체력 15% 이하 일반 적은 즉시 처형.",
+    "damage_coef_text": "200%/초 (소환수)",
+    "range_tiles": "근접",
+    "cooldown_sec": 120,
+    "mp_cost": 80,
+    "duration_sec": 20,
+    "status_text": "처형(보스 제외)",
+    "coef": 200,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "summon",
+        "unit": "reaper",
+        "count": 1,
+        "executeThreshold": 0.15
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "패시브",
+    "name": "신줄",
+    "effect_text": "동시 소환 가능 수 +1 (기본 2 → 3).",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": "상시",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "always",
+        "summonCap": 3
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "class": "소환술사",
+    "job": "무당",
+    "slot": "패시브",
+    "name": "한 서린 귀",
+    "effect_text": "소환수 피해 +10%. 소환수 사망 시 기력 +10.",
+    "damage_coef_text": null,
+    "range_tiles": null,
+    "cooldown_sec": null,
+    "mp_cost": null,
+    "duration_sec": null,
+    "status_text": "상시/조건형",
+    "coef": 0,
+    "range": 1.5,
+    "effects": [
+      {
+        "type": "passive",
+        "trigger": "summon",
+        "damage": 0.1,
+        "deathMp": 10
+      }
+    ]
+  }
+]
