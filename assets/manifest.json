@@ -18,7 +18,7 @@
     ],
     "framesPerDirection": 4,
     "referenceHeight": 151.0,
-    "drawHeight": 32,
+    "drawHeight": 48,
     "stridePixels": 24,
     "idleFrame": 1,
     "frames": {
@@ -325,7 +325,7 @@
       ],
       "framesPerDirection": 4,
       "referenceHeight": 208.0,
-      "drawHeight": 32,
+      "drawHeight": 48,
       "stridePixels": 24,
       "idleFrame": 1,
       "frames": {
@@ -622,7 +622,7 @@
       ],
       "framesPerDirection": 4,
       "referenceHeight": 179.0,
-      "drawHeight": 32,
+      "drawHeight": 48,
       "stridePixels": 24,
       "idleFrame": 1,
       "frames": {
