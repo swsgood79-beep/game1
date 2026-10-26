@@ -900,5 +900,901 @@
         ]
       }
     }
+  },
+  "attacks": {
+    "무당": {
+      "path": "assets/mudang-attack.png?v=626e37e6a76d",
+      "portrait": "assets/mudang.png",
+      "kind": "directional-atlas",
+      "source": "Generated from the existing character derived from the user-provided Joseon pixel reference; original uploaded sheet is not stored locally.",
+      "imageWidth": 887,
+      "imageHeight": 1774,
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ],
+      "framesPerDirection": 4,
+      "referenceHeight": 188.5,
+      "drawHeight": 48,
+      "stridePixels": 24,
+      "idleFrame": 1,
+      "frames": {
+        "S": [
+          {
+            "x": 77,
+            "y": 39,
+            "w": 138,
+            "h": 183,
+            "anchorX": 72.5,
+            "anchorY": 183
+          },
+          {
+            "x": 265,
+            "y": 39,
+            "w": 186,
+            "h": 183,
+            "anchorX": 92.5,
+            "anchorY": 183
+          },
+          {
+            "x": 472,
+            "y": 39,
+            "w": 193,
+            "h": 183,
+            "anchorX": 88.0,
+            "anchorY": 183
+          },
+          {
+            "x": 695,
+            "y": 39,
+            "w": 128,
+            "h": 183,
+            "anchorX": 58.5,
+            "anchorY": 183
+          }
+        ],
+        "SW": [
+          {
+            "x": 79,
+            "y": 242,
+            "w": 148,
+            "h": 183,
+            "anchorX": 66.5,
+            "anchorY": 183
+          },
+          {
+            "x": 272,
+            "y": 242,
+            "w": 178,
+            "h": 183,
+            "anchorX": 98.5,
+            "anchorY": 183
+          },
+          {
+            "x": 469,
+            "y": 242,
+            "w": 195,
+            "h": 183,
+            "anchorX": 77.0,
+            "anchorY": 183
+          },
+          {
+            "x": 694,
+            "y": 242,
+            "w": 134,
+            "h": 183,
+            "anchorX": 61.0,
+            "anchorY": 183
+          }
+        ],
+        "W": [
+          {
+            "x": 83,
+            "y": 445,
+            "w": 147,
+            "h": 187,
+            "anchorX": 74.0,
+            "anchorY": 187
+          },
+          {
+            "x": 276,
+            "y": 443,
+            "w": 187,
+            "h": 189,
+            "anchorX": 102.5,
+            "anchorY": 189
+          },
+          {
+            "x": 484,
+            "y": 445,
+            "w": 178,
+            "h": 187,
+            "anchorX": 74.0,
+            "anchorY": 187
+          },
+          {
+            "x": 696,
+            "y": 444,
+            "w": 136,
+            "h": 189,
+            "anchorX": 66.5,
+            "anchorY": 189
+          }
+        ],
+        "NW": [
+          {
+            "x": 77,
+            "y": 651,
+            "w": 161,
+            "h": 185,
+            "anchorX": 80.0,
+            "anchorY": 185
+          },
+          {
+            "x": 272,
+            "y": 651,
+            "w": 168,
+            "h": 185,
+            "anchorX": 80.5,
+            "anchorY": 185
+          },
+          {
+            "x": 464,
+            "y": 651,
+            "w": 173,
+            "h": 185,
+            "anchorX": 78.5,
+            "anchorY": 185
+          },
+          {
+            "x": 678,
+            "y": 651,
+            "w": 153,
+            "h": 186,
+            "anchorX": 73.5,
+            "anchorY": 186
+          }
+        ],
+        "N": [
+          {
+            "x": 66,
+            "y": 855,
+            "w": 169,
+            "h": 189,
+            "anchorX": 88.0,
+            "anchorY": 189
+          },
+          {
+            "x": 267,
+            "y": 855,
+            "w": 169,
+            "h": 189,
+            "anchorX": 85.5,
+            "anchorY": 189
+          },
+          {
+            "x": 465,
+            "y": 855,
+            "w": 181,
+            "h": 189,
+            "anchorX": 95.0,
+            "anchorY": 189
+          },
+          {
+            "x": 685,
+            "y": 855,
+            "w": 148,
+            "h": 189,
+            "anchorX": 73.0,
+            "anchorY": 189
+          }
+        ],
+        "NE": [
+          {
+            "x": 79,
+            "y": 1062,
+            "w": 156,
+            "h": 189,
+            "anchorX": 70.0,
+            "anchorY": 189
+          },
+          {
+            "x": 272,
+            "y": 1063,
+            "w": 174,
+            "h": 187,
+            "anchorX": 78.0,
+            "anchorY": 187
+          },
+          {
+            "x": 471,
+            "y": 1063,
+            "w": 182,
+            "h": 188,
+            "anchorX": 81.5,
+            "anchorY": 188
+          },
+          {
+            "x": 681,
+            "y": 1063,
+            "w": 148,
+            "h": 189,
+            "anchorX": 73.5,
+            "anchorY": 189
+          }
+        ],
+        "E": [
+          {
+            "x": 80,
+            "y": 1266,
+            "w": 143,
+            "h": 195,
+            "anchorX": 74.0,
+            "anchorY": 195
+          },
+          {
+            "x": 273,
+            "y": 1266,
+            "w": 180,
+            "h": 195,
+            "anchorX": 93.5,
+            "anchorY": 195
+          },
+          {
+            "x": 471,
+            "y": 1267,
+            "w": 194,
+            "h": 194,
+            "anchorX": 83.0,
+            "anchorY": 194
+          },
+          {
+            "x": 688,
+            "y": 1270,
+            "w": 145,
+            "h": 192,
+            "anchorX": 73.0,
+            "anchorY": 192
+          }
+        ],
+        "SE": [
+          {
+            "x": 79,
+            "y": 1483,
+            "w": 157,
+            "h": 193,
+            "anchorX": 75.0,
+            "anchorY": 193
+          },
+          {
+            "x": 283,
+            "y": 1484,
+            "w": 172,
+            "h": 194,
+            "anchorX": 86.0,
+            "anchorY": 194
+          },
+          {
+            "x": 485,
+            "y": 1484,
+            "w": 176,
+            "h": 193,
+            "anchorX": 93.5,
+            "anchorY": 193
+          },
+          {
+            "x": 694,
+            "y": 1484,
+            "w": 144,
+            "h": 193,
+            "anchorX": 63.5,
+            "anchorY": 193
+          }
+        ]
+      },
+      "duration": 0.36
+    },
+    "활잡이": {
+      "path": "assets/archer-attack.png?v=b793ec18cbdb",
+      "portrait": "assets/archer.png",
+      "kind": "directional-atlas",
+      "source": "Generated from the existing character derived from the user-provided Joseon pixel reference; original uploaded sheet is not stored locally.",
+      "imageWidth": 887,
+      "imageHeight": 1774,
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ],
+      "framesPerDirection": 4,
+      "referenceHeight": 203.0,
+      "drawHeight": 48,
+      "stridePixels": 24,
+      "idleFrame": 1,
+      "frames": {
+        "S": [
+          {
+            "x": 88,
+            "y": 27,
+            "w": 136,
+            "h": 196,
+            "anchorX": 68.0,
+            "anchorY": 196
+          },
+          {
+            "x": 285,
+            "y": 27,
+            "w": 153,
+            "h": 196,
+            "anchorX": 68.5,
+            "anchorY": 196
+          },
+          {
+            "x": 479,
+            "y": 27,
+            "w": 172,
+            "h": 196,
+            "anchorX": 71.0,
+            "anchorY": 196
+          },
+          {
+            "x": 683,
+            "y": 27,
+            "w": 139,
+            "h": 196,
+            "anchorX": 69.5,
+            "anchorY": 196
+          }
+        ],
+        "SW": [
+          {
+            "x": 83,
+            "y": 235,
+            "w": 140,
+            "h": 202,
+            "anchorX": 73.0,
+            "anchorY": 202
+          },
+          {
+            "x": 261,
+            "y": 235,
+            "w": 169,
+            "h": 202,
+            "anchorX": 98.5,
+            "anchorY": 202
+          },
+          {
+            "x": 448,
+            "y": 235,
+            "w": 189,
+            "h": 202,
+            "anchorX": 116.5,
+            "anchorY": 202
+          },
+          {
+            "x": 705,
+            "y": 236,
+            "w": 139,
+            "h": 201,
+            "anchorX": 71.0,
+            "anchorY": 201
+          }
+        ],
+        "W": [
+          {
+            "x": 43,
+            "y": 446,
+            "w": 177,
+            "h": 199,
+            "anchorX": 99.0,
+            "anchorY": 199
+          },
+          {
+            "x": 254,
+            "y": 446,
+            "w": 174,
+            "h": 199,
+            "anchorX": 97.5,
+            "anchorY": 199
+          },
+          {
+            "x": 451,
+            "y": 446,
+            "w": 186,
+            "h": 199,
+            "anchorX": 112.5,
+            "anchorY": 199
+          },
+          {
+            "x": 694,
+            "y": 446,
+            "w": 147,
+            "h": 199,
+            "anchorX": 78.0,
+            "anchorY": 199
+          }
+        ],
+        "NW": [
+          {
+            "x": 65,
+            "y": 657,
+            "w": 160,
+            "h": 204,
+            "anchorX": 81.0,
+            "anchorY": 204
+          },
+          {
+            "x": 277,
+            "y": 657,
+            "w": 157,
+            "h": 204,
+            "anchorX": 78.5,
+            "anchorY": 204
+          },
+          {
+            "x": 464,
+            "y": 658,
+            "w": 175,
+            "h": 203,
+            "anchorX": 87.5,
+            "anchorY": 203
+          },
+          {
+            "x": 698,
+            "y": 658,
+            "w": 146,
+            "h": 203,
+            "anchorX": 75.0,
+            "anchorY": 203
+          }
+        ],
+        "N": [
+          {
+            "x": 80,
+            "y": 875,
+            "w": 138,
+            "h": 203,
+            "anchorX": 69.0,
+            "anchorY": 203
+          },
+          {
+            "x": 276,
+            "y": 875,
+            "w": 148,
+            "h": 203,
+            "anchorX": 74.0,
+            "anchorY": 203
+          },
+          {
+            "x": 458,
+            "y": 875,
+            "w": 167,
+            "h": 203,
+            "anchorX": 83.5,
+            "anchorY": 203
+          },
+          {
+            "x": 700,
+            "y": 875,
+            "w": 139,
+            "h": 203,
+            "anchorX": 69.5,
+            "anchorY": 203
+          }
+        ],
+        "NE": [
+          {
+            "x": 77,
+            "y": 1090,
+            "w": 143,
+            "h": 205,
+            "anchorX": 70.0,
+            "anchorY": 205
+          },
+          {
+            "x": 285,
+            "y": 1090,
+            "w": 170,
+            "h": 205,
+            "anchorX": 74.0,
+            "anchorY": 205
+          },
+          {
+            "x": 492,
+            "y": 1092,
+            "w": 166,
+            "h": 205,
+            "anchorX": 83.0,
+            "anchorY": 205
+          },
+          {
+            "x": 694,
+            "y": 1090,
+            "w": 145,
+            "h": 205,
+            "anchorX": 71.0,
+            "anchorY": 205
+          }
+        ],
+        "E": [
+          {
+            "x": 78,
+            "y": 1304,
+            "w": 168,
+            "h": 205,
+            "anchorX": 73.0,
+            "anchorY": 205
+          },
+          {
+            "x": 287,
+            "y": 1304,
+            "w": 180,
+            "h": 205,
+            "anchorX": 73.0,
+            "anchorY": 205
+          },
+          {
+            "x": 490,
+            "y": 1305,
+            "w": 185,
+            "h": 204,
+            "anchorX": 73.0,
+            "anchorY": 204
+          },
+          {
+            "x": 698,
+            "y": 1303,
+            "w": 147,
+            "h": 206,
+            "anchorX": 73.5,
+            "anchorY": 206
+          }
+        ],
+        "SE": [
+          {
+            "x": 75,
+            "y": 1518,
+            "w": 156,
+            "h": 208,
+            "anchorX": 76.0,
+            "anchorY": 208
+          },
+          {
+            "x": 276,
+            "y": 1518,
+            "w": 170,
+            "h": 208,
+            "anchorX": 74.0,
+            "anchorY": 208
+          },
+          {
+            "x": 484,
+            "y": 1518,
+            "w": 167,
+            "h": 208,
+            "anchorX": 72.5,
+            "anchorY": 208
+          },
+          {
+            "x": 690,
+            "y": 1519,
+            "w": 147,
+            "h": 207,
+            "anchorX": 74.5,
+            "anchorY": 207
+          }
+        ]
+      },
+      "duration": 0.36
+    },
+    "백정": {
+      "path": "assets/butcher-attack.png?v=0ad2cffe4368",
+      "portrait": "assets/butcher.png",
+      "kind": "directional-atlas",
+      "source": "Generated from the existing character derived from the user-provided Joseon pixel reference; original uploaded sheet is not stored locally.",
+      "imageWidth": 887,
+      "imageHeight": 1774,
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ],
+      "framesPerDirection": 4,
+      "referenceHeight": 209.0,
+      "drawHeight": 48,
+      "stridePixels": 24,
+      "idleFrame": 1,
+      "frames": {
+        "S": [
+          {
+            "x": 73,
+            "y": 13,
+            "w": 161,
+            "h": 209,
+            "anchorX": 81.0,
+            "anchorY": 209
+          },
+          {
+            "x": 307,
+            "y": 15,
+            "w": 126,
+            "h": 210,
+            "anchorX": 66.5,
+            "anchorY": 210
+          },
+          {
+            "x": 510,
+            "y": 18,
+            "w": 131,
+            "h": 209,
+            "anchorX": 68.5,
+            "anchorY": 209
+          },
+          {
+            "x": 678,
+            "y": 15,
+            "w": 146,
+            "h": 209,
+            "anchorX": 86.0,
+            "anchorY": 209
+          }
+        ],
+        "SW": [
+          {
+            "x": 63,
+            "y": 228,
+            "w": 174,
+            "h": 208,
+            "anchorX": 81.5,
+            "anchorY": 208
+          },
+          {
+            "x": 290,
+            "y": 235,
+            "w": 137,
+            "h": 201,
+            "anchorX": 76.0,
+            "anchorY": 201
+          },
+          {
+            "x": 475,
+            "y": 227,
+            "w": 165,
+            "h": 209,
+            "anchorX": 94.0,
+            "anchorY": 209
+          },
+          {
+            "x": 674,
+            "y": 231,
+            "w": 151,
+            "h": 205,
+            "anchorX": 90.0,
+            "anchorY": 205
+          }
+        ],
+        "W": [
+          {
+            "x": 83,
+            "y": 440,
+            "w": 164,
+            "h": 208,
+            "anchorX": 84.0,
+            "anchorY": 208
+          },
+          {
+            "x": 270,
+            "y": 443,
+            "w": 163,
+            "h": 205,
+            "anchorX": 103.0,
+            "anchorY": 205
+          },
+          {
+            "x": 461,
+            "y": 446,
+            "w": 188,
+            "h": 202,
+            "anchorX": 111.0,
+            "anchorY": 202
+          },
+          {
+            "x": 677,
+            "y": 439,
+            "w": 146,
+            "h": 209,
+            "anchorX": 82.0,
+            "anchorY": 209
+          }
+        ],
+        "NW": [
+          {
+            "x": 68,
+            "y": 658,
+            "w": 172,
+            "h": 209,
+            "anchorX": 103.0,
+            "anchorY": 209
+          },
+          {
+            "x": 278,
+            "y": 657,
+            "w": 153,
+            "h": 210,
+            "anchorX": 93.5,
+            "anchorY": 210
+          },
+          {
+            "x": 492,
+            "y": 658,
+            "w": 145,
+            "h": 209,
+            "anchorX": 72.5,
+            "anchorY": 209
+          },
+          {
+            "x": 676,
+            "y": 657,
+            "w": 171,
+            "h": 210,
+            "anchorX": 87.0,
+            "anchorY": 210
+          }
+        ],
+        "N": [
+          {
+            "x": 70,
+            "y": 884,
+            "w": 174,
+            "h": 213,
+            "anchorX": 97.5,
+            "anchorY": 213
+          },
+          {
+            "x": 279,
+            "y": 886,
+            "w": 169,
+            "h": 210,
+            "anchorX": 93.5,
+            "anchorY": 210
+          },
+          {
+            "x": 485,
+            "y": 885,
+            "w": 175,
+            "h": 211,
+            "anchorX": 100.0,
+            "anchorY": 211
+          },
+          {
+            "x": 682,
+            "y": 884,
+            "w": 157,
+            "h": 211,
+            "anchorX": 87.0,
+            "anchorY": 211
+          }
+        ],
+        "NE": [
+          {
+            "x": 70,
+            "y": 1106,
+            "w": 160,
+            "h": 214,
+            "anchorX": 78.5,
+            "anchorY": 214
+          },
+          {
+            "x": 282,
+            "y": 1106,
+            "w": 180,
+            "h": 215,
+            "anchorX": 73.0,
+            "anchorY": 215
+          },
+          {
+            "x": 487,
+            "y": 1111,
+            "w": 181,
+            "h": 210,
+            "anchorX": 75.0,
+            "anchorY": 210
+          },
+          {
+            "x": 682,
+            "y": 1106,
+            "w": 160,
+            "h": 215,
+            "anchorX": 69.0,
+            "anchorY": 215
+          }
+        ],
+        "E": [
+          {
+            "x": 70,
+            "y": 1325,
+            "w": 159,
+            "h": 211,
+            "anchorX": 74.0,
+            "anchorY": 211
+          },
+          {
+            "x": 300,
+            "y": 1327,
+            "w": 166,
+            "h": 204,
+            "anchorX": 62.5,
+            "anchorY": 204
+          },
+          {
+            "x": 500,
+            "y": 1335,
+            "w": 161,
+            "h": 198,
+            "anchorX": 61.5,
+            "anchorY": 198
+          },
+          {
+            "x": 686,
+            "y": 1326,
+            "w": 155,
+            "h": 210,
+            "anchorX": 65.5,
+            "anchorY": 210
+          }
+        ],
+        "SE": [
+          {
+            "x": 90,
+            "y": 1536,
+            "w": 150,
+            "h": 208,
+            "anchorX": 63.5,
+            "anchorY": 208
+          },
+          {
+            "x": 285,
+            "y": 1538,
+            "w": 142,
+            "h": 206,
+            "anchorX": 62.0,
+            "anchorY": 206
+          },
+          {
+            "x": 480,
+            "y": 1538,
+            "w": 155,
+            "h": 204,
+            "anchorX": 62.0,
+            "anchorY": 204
+          },
+          {
+            "x": 677,
+            "y": 1538,
+            "w": 154,
+            "h": 210,
+            "anchorX": 63.5,
+            "anchorY": 210
+          }
+        ]
+      },
+      "duration": 0.36
+    }
   }
 }
