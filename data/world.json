@@ -74,5 +74,12 @@
       "boss": true
     }
   ],
-  "attackPoseSeconds": 0.25
+  "attackPoseSeconds": 0.25,
+  "impact": {
+    "enemyDistance": 10,
+    "meleeDistance": 13,
+    "playerDistance": 11,
+    "bossResistance": 0.3,
+    "criticalMultiplier": 1.25
+  }
 }

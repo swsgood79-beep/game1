@@ -19,7 +19,7 @@
     "framesPerDirection": 8,
     "referenceHeight": 151.0,
     "drawHeight": 48,
-    "stridePixels": 36.0,
+    "stridePixels": 45,
     "idleFrame": 1,
     "frames": {
       "S": [
@@ -582,7 +582,7 @@
       "framesPerDirection": 8,
       "referenceHeight": 154.5,
       "drawHeight": 48,
-      "stridePixels": 36.0,
+      "stridePixels": 45,
       "idleFrame": 1,
       "frames": {
         "S": [
@@ -1135,7 +1135,7 @@
       "framesPerDirection": 8,
       "referenceHeight": 141.0,
       "drawHeight": 48,
-      "stridePixels": 36.0,
+      "stridePixels": 45,
       "idleFrame": 1,
       "frames": {
         "S": [
