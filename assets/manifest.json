@@ -296,8 +296,7 @@
       ]
     },
     "variants": {
-      "활잡이": "original palette",
-      "무당": "hue tint placeholder"
+      "활잡이": "original palette"
     }
   },
   "terrain": {
@@ -600,6 +599,303 @@
             "h": 210,
             "anchorX": 69.0,
             "anchorY": 210
+          }
+        ]
+      }
+    },
+    "무당": {
+      "path": "assets/mudang-walk.png?v=067b3ff85c26",
+      "portrait": "assets/mudang.png",
+      "kind": "directional-atlas",
+      "source": "Generated from the user-provided Korean shaman painting: ivory ceremonial hat, white jeogori, red skirt, multicolored ribbons/fan and brass ritual bell. PNG preserved without editing.",
+      "imageWidth": 887,
+      "imageHeight": 1774,
+      "directions": [
+        "S",
+        "SW",
+        "W",
+        "NW",
+        "N",
+        "NE",
+        "E",
+        "SE"
+      ],
+      "framesPerDirection": 4,
+      "referenceHeight": 179.0,
+      "drawHeight": 32,
+      "stridePixels": 24,
+      "idleFrame": 1,
+      "frames": {
+        "S": [
+          {
+            "x": 90,
+            "y": 46,
+            "w": 154,
+            "h": 174,
+            "anchorX": 76.5,
+            "anchorY": 174
+          },
+          {
+            "x": 281,
+            "y": 46,
+            "w": 154,
+            "h": 174,
+            "anchorX": 78.0,
+            "anchorY": 174
+          },
+          {
+            "x": 470,
+            "y": 46,
+            "w": 152,
+            "h": 174,
+            "anchorX": 76.0,
+            "anchorY": 174
+          },
+          {
+            "x": 659,
+            "y": 46,
+            "w": 150,
+            "h": 174,
+            "anchorX": 76.5,
+            "anchorY": 174
+          }
+        ],
+        "SW": [
+          {
+            "x": 89,
+            "y": 245,
+            "w": 155,
+            "h": 176,
+            "anchorX": 78.0,
+            "anchorY": 176
+          },
+          {
+            "x": 284,
+            "y": 245,
+            "w": 153,
+            "h": 176,
+            "anchorX": 76.0,
+            "anchorY": 176
+          },
+          {
+            "x": 475,
+            "y": 245,
+            "w": 147,
+            "h": 176,
+            "anchorX": 72.5,
+            "anchorY": 176
+          },
+          {
+            "x": 660,
+            "y": 245,
+            "w": 149,
+            "h": 176,
+            "anchorX": 72.5,
+            "anchorY": 176
+          }
+        ],
+        "W": [
+          {
+            "x": 92,
+            "y": 450,
+            "w": 147,
+            "h": 178,
+            "anchorX": 78.0,
+            "anchorY": 178
+          },
+          {
+            "x": 286,
+            "y": 449,
+            "w": 144,
+            "h": 179,
+            "anchorX": 73.5,
+            "anchorY": 179
+          },
+          {
+            "x": 478,
+            "y": 449,
+            "w": 132,
+            "h": 179,
+            "anchorX": 66.5,
+            "anchorY": 179
+          },
+          {
+            "x": 664,
+            "y": 450,
+            "w": 145,
+            "h": 178,
+            "anchorX": 74.5,
+            "anchorY": 178
+          }
+        ],
+        "NW": [
+          {
+            "x": 74,
+            "y": 654,
+            "w": 152,
+            "h": 179,
+            "anchorX": 77.0,
+            "anchorY": 179
+          },
+          {
+            "x": 273,
+            "y": 654,
+            "w": 148,
+            "h": 179,
+            "anchorX": 74.5,
+            "anchorY": 179
+          },
+          {
+            "x": 464,
+            "y": 654,
+            "w": 145,
+            "h": 179,
+            "anchorX": 71.0,
+            "anchorY": 179
+          },
+          {
+            "x": 654,
+            "y": 654,
+            "w": 149,
+            "h": 179,
+            "anchorX": 73.5,
+            "anchorY": 179
+          }
+        ],
+        "N": [
+          {
+            "x": 72,
+            "y": 858,
+            "w": 154,
+            "h": 183,
+            "anchorX": 79.0,
+            "anchorY": 183
+          },
+          {
+            "x": 267,
+            "y": 858,
+            "w": 154,
+            "h": 183,
+            "anchorX": 80.0,
+            "anchorY": 183
+          },
+          {
+            "x": 461,
+            "y": 858,
+            "w": 153,
+            "h": 183,
+            "anchorX": 78.5,
+            "anchorY": 183
+          },
+          {
+            "x": 657,
+            "y": 858,
+            "w": 157,
+            "h": 183,
+            "anchorX": 80.5,
+            "anchorY": 183
+          }
+        ],
+        "NE": [
+          {
+            "x": 70,
+            "y": 1066,
+            "w": 154,
+            "h": 180,
+            "anchorX": 73.5,
+            "anchorY": 180
+          },
+          {
+            "x": 273,
+            "y": 1067,
+            "w": 142,
+            "h": 179,
+            "anchorX": 69.0,
+            "anchorY": 179
+          },
+          {
+            "x": 459,
+            "y": 1066,
+            "w": 146,
+            "h": 180,
+            "anchorX": 70.5,
+            "anchorY": 180
+          },
+          {
+            "x": 648,
+            "y": 1066,
+            "w": 150,
+            "h": 180,
+            "anchorX": 71.0,
+            "anchorY": 180
+          }
+        ],
+        "E": [
+          {
+            "x": 74,
+            "y": 1271,
+            "w": 146,
+            "h": 186,
+            "anchorX": 69.5,
+            "anchorY": 186
+          },
+          {
+            "x": 267,
+            "y": 1271,
+            "w": 143,
+            "h": 186,
+            "anchorX": 69.5,
+            "anchorY": 186
+          },
+          {
+            "x": 457,
+            "y": 1271,
+            "w": 144,
+            "h": 186,
+            "anchorX": 70.5,
+            "anchorY": 186
+          },
+          {
+            "x": 650,
+            "y": 1271,
+            "w": 145,
+            "h": 186,
+            "anchorX": 69.0,
+            "anchorY": 186
+          }
+        ],
+        "SE": [
+          {
+            "x": 91,
+            "y": 1488,
+            "w": 152,
+            "h": 187,
+            "anchorX": 75.5,
+            "anchorY": 187
+          },
+          {
+            "x": 289,
+            "y": 1488,
+            "w": 150,
+            "h": 187,
+            "anchorX": 75.0,
+            "anchorY": 187
+          },
+          {
+            "x": 482,
+            "y": 1488,
+            "w": 148,
+            "h": 187,
+            "anchorX": 73.0,
+            "anchorY": 187
+          },
+          {
+            "x": 671,
+            "y": 1488,
+            "w": 153,
+            "h": 186,
+            "anchorX": 76.5,
+            "anchorY": 186
           }
         ]
       }

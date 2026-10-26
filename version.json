@@ -1,1 +1,1 @@
-{"version": "0.4.0", "features": ["mobile-controls", "portrait-camera", "multi-touch", "auto-aim", "8-direction-sprites", "distance-based-walk-cycle", "attack-facing-sync", "butcher-character", "per-job-sprite-atlas"]}
+{"version": "0.5.0", "features": ["mobile-controls", "portrait-camera", "multi-touch", "auto-aim", "8-direction-sprites", "distance-based-walk-cycle", "attack-facing-sync", "butcher-character", "per-job-sprite-atlas", "mudang-character"]}
