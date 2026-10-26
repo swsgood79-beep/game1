@@ -1,6 +1,6 @@
 {
   "player": {
-    "path": "assets/archer-walk.png",
+    "path": "assets/archer-walk.png?v=0fc177bf70e1",
     "portrait": "assets/archer.png",
     "kind": "directional-atlas",
     "source": "Generated from the existing character derived from the user-provided Joseon pixel reference; original uploaded sheet is not stored locally.",
