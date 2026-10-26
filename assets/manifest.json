@@ -1,1 +1,310 @@
-{"player":{"path":"assets/archer.png","kind":"single-frame","source":"Generated from the user-provided Joseon pixel character reference","directions":"front; horizontal mirror for aiming","variants":{"활잡이":"original palette","백정":"sepia tint placeholder","무당":"hue tint placeholder"}},"terrain":{"kind":"procedural-pixel-canvas"},"monsters":{"kind":"procedural-pixel-canvas"}}
+{
+  "player": {
+    "path": "assets/archer-walk.png",
+    "portrait": "assets/archer.png",
+    "kind": "directional-atlas",
+    "source": "Generated from the existing character derived from the user-provided Joseon pixel reference; original uploaded sheet is not stored locally.",
+    "imageWidth": 1254,
+    "imageHeight": 1254,
+    "directions": [
+      "S",
+      "SW",
+      "W",
+      "NW",
+      "N",
+      "NE",
+      "E",
+      "SE"
+    ],
+    "framesPerDirection": 4,
+    "referenceHeight": 151.0,
+    "drawHeight": 32,
+    "stridePixels": 24,
+    "idleFrame": 1,
+    "frames": {
+      "S": [
+        {
+          "x": 290,
+          "y": 7,
+          "w": 118,
+          "h": 159,
+          "anchorX": 59.0,
+          "anchorY": 159
+        },
+        {
+          "x": 484,
+          "y": 7,
+          "w": 114,
+          "h": 159,
+          "anchorX": 56.5,
+          "anchorY": 159
+        },
+        {
+          "x": 666,
+          "y": 7,
+          "w": 115,
+          "h": 160,
+          "anchorX": 57.5,
+          "anchorY": 160
+        },
+        {
+          "x": 851,
+          "y": 7,
+          "w": 112,
+          "h": 159,
+          "anchorX": 56.0,
+          "anchorY": 159
+        }
+      ],
+      "SW": [
+        {
+          "x": 286,
+          "y": 170,
+          "w": 118,
+          "h": 151,
+          "anchorX": 57.5,
+          "anchorY": 151
+        },
+        {
+          "x": 477,
+          "y": 170,
+          "w": 117,
+          "h": 151,
+          "anchorX": 56.5,
+          "anchorY": 151
+        },
+        {
+          "x": 667,
+          "y": 170,
+          "w": 117,
+          "h": 151,
+          "anchorX": 57.0,
+          "anchorY": 151
+        },
+        {
+          "x": 854,
+          "y": 170,
+          "w": 114,
+          "h": 151,
+          "anchorX": 57.0,
+          "anchorY": 151
+        }
+      ],
+      "W": [
+        {
+          "x": 284,
+          "y": 322,
+          "w": 112,
+          "h": 154,
+          "anchorX": 56.0,
+          "anchorY": 154
+        },
+        {
+          "x": 475,
+          "y": 322,
+          "w": 112,
+          "h": 154,
+          "anchorX": 56.0,
+          "anchorY": 154
+        },
+        {
+          "x": 665,
+          "y": 322,
+          "w": 114,
+          "h": 154,
+          "anchorX": 57.0,
+          "anchorY": 154
+        },
+        {
+          "x": 855,
+          "y": 322,
+          "w": 114,
+          "h": 156,
+          "anchorX": 57.0,
+          "anchorY": 156
+        }
+      ],
+      "NW": [
+        {
+          "x": 288,
+          "y": 481,
+          "w": 113,
+          "h": 147,
+          "anchorX": 57.0,
+          "anchorY": 147
+        },
+        {
+          "x": 481,
+          "y": 481,
+          "w": 115,
+          "h": 147,
+          "anchorX": 57.5,
+          "anchorY": 147
+        },
+        {
+          "x": 667,
+          "y": 481,
+          "w": 113,
+          "h": 146,
+          "anchorX": 58.5,
+          "anchorY": 146
+        },
+        {
+          "x": 855,
+          "y": 481,
+          "w": 113,
+          "h": 146,
+          "anchorX": 56.5,
+          "anchorY": 146
+        }
+      ],
+      "N": [
+        {
+          "x": 290,
+          "y": 630,
+          "w": 118,
+          "h": 157,
+          "anchorX": 59.0,
+          "anchorY": 157
+        },
+        {
+          "x": 477,
+          "y": 630,
+          "w": 119,
+          "h": 157,
+          "anchorX": 59.5,
+          "anchorY": 157
+        },
+        {
+          "x": 663,
+          "y": 630,
+          "w": 118,
+          "h": 157,
+          "anchorX": 59.0,
+          "anchorY": 157
+        },
+        {
+          "x": 850,
+          "y": 630,
+          "w": 118,
+          "h": 157,
+          "anchorX": 59.0,
+          "anchorY": 157
+        }
+      ],
+      "NE": [
+        {
+          "x": 291,
+          "y": 790,
+          "w": 117,
+          "h": 152,
+          "anchorX": 58.5,
+          "anchorY": 152
+        },
+        {
+          "x": 481,
+          "y": 790,
+          "w": 115,
+          "h": 152,
+          "anchorX": 57.5,
+          "anchorY": 152
+        },
+        {
+          "x": 664,
+          "y": 790,
+          "w": 118,
+          "h": 152,
+          "anchorX": 59.0,
+          "anchorY": 152
+        },
+        {
+          "x": 853,
+          "y": 790,
+          "w": 116,
+          "h": 150,
+          "anchorX": 58.0,
+          "anchorY": 150
+        }
+      ],
+      "E": [
+        {
+          "x": 286,
+          "y": 945,
+          "w": 121,
+          "h": 151,
+          "anchorX": 62.5,
+          "anchorY": 151
+        },
+        {
+          "x": 476,
+          "y": 948,
+          "w": 118,
+          "h": 148,
+          "anchorX": 59.0,
+          "anchorY": 148
+        },
+        {
+          "x": 660,
+          "y": 947,
+          "w": 117,
+          "h": 150,
+          "anchorX": 58.5,
+          "anchorY": 150
+        },
+        {
+          "x": 851,
+          "y": 948,
+          "w": 116,
+          "h": 149,
+          "anchorX": 58.0,
+          "anchorY": 149
+        }
+      ],
+      "SE": [
+        {
+          "x": 288,
+          "y": 1100,
+          "w": 120,
+          "h": 151,
+          "anchorX": 61.0,
+          "anchorY": 151
+        },
+        {
+          "x": 481,
+          "y": 1100,
+          "w": 118,
+          "h": 151,
+          "anchorX": 60.0,
+          "anchorY": 151
+        },
+        {
+          "x": 666,
+          "y": 1101,
+          "w": 120,
+          "h": 150,
+          "anchorX": 61.0,
+          "anchorY": 150
+        },
+        {
+          "x": 850,
+          "y": 1100,
+          "w": 122,
+          "h": 151,
+          "anchorX": 62.0,
+          "anchorY": 151
+        }
+      ]
+    },
+    "variants": {
+      "활잡이": "original palette",
+      "백정": "sepia tint placeholder",
+      "무당": "hue tint placeholder"
+    }
+  },
+  "terrain": {
+    "kind": "procedural-pixel-canvas"
+  },
+  "monsters": {
+    "kind": "procedural-pixel-canvas"
+  }
+}

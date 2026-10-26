@@ -1,1 +1,1 @@
-{"version":"0.2.0","features":["mobile-controls","portrait-camera","multi-touch","auto-aim"]}
+{"version":"0.3.0","features":["mobile-controls","portrait-camera","multi-touch","auto-aim","8-direction-sprites","distance-based-walk-cycle"]}
