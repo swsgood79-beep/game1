@@ -1,5 +1,5 @@
 {
-  "version": "1.3.2",
+  "version": "1.4.0",
   "features": [
     "mobile-controls",
     "portrait-camera",
@@ -72,6 +72,14 @@
     "bounded-damage-labels",
     "ordinary-hits-without-global-pause",
     "gated-short-heavy-hitstop",
-    "wall-clock-feedback-expiry"
+    "wall-clock-feedback-expiry",
+    "64x-wide-stage",
+    "half-scale-follow-camera",
+    "adaptive-portrait-battlefield",
+    "bounded-visible-terrain-chunks",
+    "seven-stage-landmarks",
+    "world-position-minimap",
+    "world-space-skills-and-recoil",
+    "offscreen-wave-entry"
   ]
 }
