@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "cell": 80,
+  "frames": 8,
+  "jobs": {
+    "백정": {
+      "path": "assets/skills/butcher-skills.png?v=02cb6c75447f",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "도살칼 베기",
+        "갈고리 던지기",
+        "뼈 발라내기",
+        "칼 갈기",
+        "도살 개시",
+        "피 맛",
+        "굳은 손"
+      ]
+    },
+    "포졸": {
+      "path": "assets/skills/pojjol-skills.png?v=90e560cc70db",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "육모방망이 타격",
+        "포승줄 던지기",
+        "호각 불기",
+        "쾌속 추격",
+        "일망타진",
+        "순찰 기민",
+        "포박 달인"
+      ]
+    },
+    "군졸": {
+      "path": "assets/skills/soldier-skills.png?v=9254da473126",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "창 찌르기",
+        "방패 막기",
+        "창 돌격",
+        "함성",
+        "방진",
+        "철갑",
+        "각오"
+      ]
+    },
+    "활잡이": {
+      "path": "assets/skills/archer-skills.png?v=3e7c539b232b",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "화살 쏘기",
+        "연발사격",
+        "화살비",
+        "후방 도약",
+        "백발백중",
+        "정조준",
+        "활 단련"
+      ]
+    },
+    "사냥꾼": {
+      "path": "assets/skills/hunter-skills.png?v=fd60bd1e407e",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "대궁 사격",
+        "올가미 덫",
+        "급소 조준",
+        "미끼 고기",
+        "호랑이 사냥",
+        "짐승의 눈",
+        "추적 감각"
+      ]
+    },
+    "방사": {
+      "path": "assets/skills/bangsa-skills.png?v=24748f6e4de7",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "부적 던지기",
+        "화염부",
+        "수기탄",
+        "금기 부적",
+        "오행진",
+        "영험한 부적",
+        "속성 공명"
+      ]
+    },
+    "풍수쟁이": {
+      "path": "assets/skills/geomancer-skills.png?v=71aaa975d262",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "패철 지팡이",
+        "지맥 장판",
+        "명당",
+        "살기 부여",
+        "천지결계",
+        "지형 읽기",
+        "터잡이"
+      ]
+    },
+    "무당": {
+      "path": "assets/skills/mudang-skills.png?v=cbfe99dd5a2d",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "방울 흔들기",
+        "도깨비불",
+        "처녀귀신 소환",
+        "신칼 의식",
+        "저승사자 강림",
+        "신줄",
+        "한 서린 귀"
+      ]
+    },
+    "행자": {
+      "path": "assets/skills/monk-skills.png?v=f141be3fab95",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "염주 던지기",
+        "결박 염주",
+        "사역령 호출",
+        "경전 독송",
+        "백팔번뇌",
+        "불심",
+        "인연"
+      ]
+    },
+    "심마니": {
+      "path": "assets/skills/herbalist-skills.png?v=d64f8a48a20a",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "약초 열매 던지기",
+        "약초 달이기",
+        "약초 지대",
+        "해독초",
+        "천년 산삼",
+        "약초 감각",
+        "산 사람"
+      ]
+    },
+    "보부상": {
+      "path": "assets/skills/merchant-skills.png?v=baf7b79eba31",
+      "width": 640,
+      "height": 560,
+      "skills": [
+        "작대기 후려치기",
+        "행상 외침",
+        "철질려 설치",
+        "보따리 풀기",
+        "장터 개시",
+        "덤",
+        "넉살"
+      ]
+    }
+  },
+  "summons": {
+    "path": "assets/skills/summons.png?v=fa2af08e6ab7",
+    "width": 640,
+    "height": 400
+  }
+}
