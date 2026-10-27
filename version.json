@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "features": [
     "mobile-controls",
     "portrait-camera",
@@ -81,12 +81,7 @@
     "world-position-minimap",
     "world-space-skills-and-recoil",
     "offscreen-wave-entry",
-    "continuous-monster-hordes",
-    "stage-clear-progress-gauge",
-    "automatic-region-transitions",
     "persistent-job-between-stages",
-    "stage-clear-recovery",
-    "scaling-elite-and-boss-hordes",
     "spatial-projectile-collisions",
     "bounded-crowd-steering",
     "cached-entity-shadows",
@@ -96,6 +91,20 @@
     "moving-charge-skills",
     "moving-aimable-channel",
     "multi-touch-skill-press",
-    "published-hack-and-slash-plan"
+    "published-hack-and-slash-plan",
+    "safe-camp-town",
+    "four-story-npcs",
+    "npc-click-pathfinding",
+    "five-quest-first-chapter",
+    "three-hunting-regions",
+    "story-boss-and-ending",
+    "xp-levels-and-training",
+    "physical-loot-and-four-equipment-slots",
+    "item-comparison-and-stat-application",
+    "shop-sell-and-buyback",
+    "free-healing-and-potion-refill",
+    "town-return-and-death-rescue",
+    "per-job-local-save-and-continue",
+    "mobile-adventure-menus"
   ]
 }
