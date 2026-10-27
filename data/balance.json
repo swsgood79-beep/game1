@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "source": {
+    "file": "joseon_job_tree.xlsx",
+    "sha256": "e27f74888847bb025b1d25e4963796b8e7dad32d7b39eedf90252aac3ae20fef",
+    "sheets": [
+      "공통 규칙",
+      "1차 기본 스탯",
+      "2차 설계 원칙",
+      "2차 스킬(원거리)",
+      "밸런스 점검(1차)"
+    ]
+  },
+  "tempo": {
+    "basicAttackMultiplier": 1.5
+  },
+  "common": {
+    "burnCoefficient": 0.25
+  },
+  "advanced": {
+    "hp": 1.25,
+    "attack": 1.2,
+    "defense": 1.2,
+    "mp": 1.1
+  },
+  "attackSpeedOverrides": {
+    "포수": 0.5
+  },
+  "statOverrides": {
+    "포졸": {
+      "attack": 13
+    },
+    "풍수쟁이": {
+      "attack": 12
+    },
+    "행자": {
+      "attack": 13
+    },
+    "심마니": {
+      "attack": 12
+    },
+    "보부상": {
+      "attack": 12
+    }
+  },
+  "model": {
+    "seconds": 60,
+    "regen": 5,
+    "lower": 0.8,
+    "upper": 1.2,
+    "rows": [
+      {
+        "job": "백정",
+        "roleTarget": 0.9,
+        "sourceAttack": 14.0,
+        "basicCoefficient": 1.0,
+        "buffFactor": 1.08,
+        "skillDamageTotal": 441.0,
+        "skillMpNeeded": 392.5,
+        "sourceDps": 21.546,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "포졸",
+        "roleTarget": 1.0,
+        "sourceAttack": 11.0,
+        "basicCoefficient": 0.85,
+        "buffFactor": 1.08,
+        "skillDamageTotal": 84.8571428571429,
+        "skillMpNeeded": 222.142857142857,
+        "sourceDps": 15.6646285714286,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "군졸",
+        "roleTarget": 0.6,
+        "sourceAttack": 11.0,
+        "basicCoefficient": 0.9,
+        "buffFactor": 1.0,
+        "skillDamageTotal": 71.5,
+        "skillMpNeeded": 278.095238095238,
+        "sourceDps": 11.0916666666667,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "활잡이",
+        "roleTarget": 1.0,
+        "sourceAttack": 12.0,
+        "basicCoefficient": 0.75,
+        "buffFactor": 1.15,
+        "skillDamageTotal": 348.0,
+        "skillMpNeeded": 375.238095238095,
+        "sourceDps": 23.23,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "사냥꾼",
+        "roleTarget": 1.0,
+        "sourceAttack": 13.0,
+        "basicCoefficient": 1.4,
+        "buffFactor": 1.05,
+        "skillDamageTotal": 390.39,
+        "skillMpNeeded": 338.0,
+        "sourceDps": 20.208825,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "방사",
+        "roleTarget": 1.0,
+        "sourceAttack": 14.0,
+        "basicCoefficient": 0.8,
+        "buffFactor": 1.1,
+        "skillDamageTotal": 459.25,
+        "skillMpNeeded": 421.392857142857,
+        "sourceDps": 21.9715833333333,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "풍수쟁이",
+        "roleTarget": 0.7,
+        "sourceAttack": 11.0,
+        "basicCoefficient": 0.7,
+        "buffFactor": 1.1,
+        "skillDamageTotal": 165.0,
+        "skillMpNeeded": 314.166666666667,
+        "sourceDps": 11.495,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "무당",
+        "roleTarget": 0.9,
+        "sourceAttack": 12.0,
+        "basicCoefficient": 0.7,
+        "buffFactor": 1.06,
+        "skillDamageTotal": 471.0,
+        "skillMpNeeded": 347.5,
+        "sourceDps": 17.225,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "행자",
+        "roleTarget": 0.7,
+        "sourceAttack": 11.0,
+        "basicCoefficient": 0.65,
+        "buffFactor": 1.0,
+        "skillDamageTotal": 209.261904761905,
+        "skillMpNeeded": 298.809523809524,
+        "sourceDps": 10.6376984126984,
+        "sourceHps": 0.0
+      },
+      {
+        "job": "심마니",
+        "roleTarget": 0.4,
+        "sourceAttack": 10.0,
+        "basicCoefficient": 0.55,
+        "buffFactor": 1.0,
+        "skillDamageTotal": 0.0,
+        "skillMpNeeded": 475.952380952381,
+        "sourceDps": 5.5,
+        "sourceHps": 5.92169418042355
+      },
+      {
+        "job": "보부상",
+        "roleTarget": 0.5,
+        "sourceAttack": 10.0,
+        "basicCoefficient": 0.7,
+        "buffFactor": 1.0,
+        "skillDamageTotal": 60.0,
+        "skillMpNeeded": 216.0,
+        "sourceDps": 8.0,
+        "sourceHps": 0.0
+      }
+    ]
+  }
+}
