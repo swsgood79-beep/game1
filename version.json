@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "features": [
     "mobile-controls",
     "portrait-camera",
@@ -80,6 +80,22 @@
     "seven-stage-landmarks",
     "world-position-minimap",
     "world-space-skills-and-recoil",
-    "offscreen-wave-entry"
+    "offscreen-wave-entry",
+    "continuous-monster-hordes",
+    "stage-clear-progress-gauge",
+    "automatic-region-transitions",
+    "persistent-job-between-stages",
+    "stage-clear-recovery",
+    "scaling-elite-and-boss-hordes",
+    "spatial-projectile-collisions",
+    "bounded-crowd-steering",
+    "cached-entity-shadows",
+    "hack-and-slash-direction",
+    "grouped-enemy-packs",
+    "wider-0.45-camera",
+    "moving-charge-skills",
+    "moving-aimable-channel",
+    "multi-touch-skill-press",
+    "published-hack-and-slash-plan"
   ]
 }
